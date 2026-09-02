@@ -1,233 +1,80 @@
-<!--
-  GitHub Profile README — for repository: Yukibei/Yukibei
-  使用方式：
-    1. 在 GitHub 新建仓库，仓库名必须与用户名完全一致：Yukibei
-    2. 将本文件改名为 README.md 上传到该仓库根目录
-    3. GitHub 会自动在 https://github.com/Yukibei 顶部展示
-  备注：
-    - 徽章使用 shields.io（公开 CDN，HR 加载无障碍）
-    - 头部图采用 capsule-render（可换 hooppupil.me 截图）
-    - 所有外链指向真实站点 / 仓库
--->
-
 <div align="center">
 
-<!-- 顶部 Banner（动态渐变 + 标题） -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=180&section=header&text=Hi%2C%20I'm%20Yiling%20Li&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Full-Stack%20Engineer%20%7C%20LLM%20Agent%20Architect&descSize=18&descAlignY=60" />
+# 李怡霖 · Yiling Li
 
-<!-- 个人副标题 -->
-<h3>
-  🏀 Building <a href="https://admin.hooppupil.me">Hoop Pupil</a> —
-  An AI-Native Basketball Intelligence Platform
-</h3>
+**AI Application Engineer · Full-Stack Builder · Agent Systems**
 
-<!-- 关键徽章 -->
-<p>
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Work-brightgreen?style=flat-square" />
-  <img src="https://img.shields.io/badge/Class%20of-2026-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Paper-CCF--B%20In%20Progress-orange?style=flat-square" />
-  <img src="https://img.shields.io/badge/Stack-Full--Stack%20%2B%20AI-purple?style=flat-square" />
-</p>
+从模型能力到可交付产品：异步任务、检索增强、页面编排、数据管线与真实业务闭环。
 
-<!-- 访问统计（自动更新） -->
-<p>
-  <img src="https://komarev.com/ghpvc/?username=Yukibei&color=blueviolet&style=flat-square&label=Profile+Views" />
-  <img src="https://img.shields.io/github/followers/Yukibei?style=flat-square&label=Followers&color=blue" />
-</p>
+[个人网站](https://www.liyilin.xyz) · [Hoop Pupil](https://admin.hooppupil.me) · [Email](mailto:2747028274@qq.com)
 
 </div>
 
 ---
 
-## 👋 About Me
+## What I build
 
-我是 **李怡霖（Yiling Li）**，2026 届计算机本科生，专注 **AI 全栈** 与 **LLM Agent 架构**。
-独立设计并落地了 **Manifest 自描述协议** 和 **PPSF 闭环架构**，相关研究成果正以**第一作者身份**形成 CCF-B 期刊论文。
+我关注 AI 系统真正进入生产环境之后的问题：
 
-- 🏀 **正在做**：[智瞳蓝途 / Hoop Pupil](https://admin.hooppupil.me) — 篮球智能分析平台（Web + 微信小程序 + Android）
-- 📚 **正在写**：基于用户意图认知行为的前端智能体页面调度诱导系统研究（**CCF-B 在投**）
-- 🔬 **正在研**：篮球场景轻量遮挡感知 ReID 算法（mAP 91.61% / Rank-1 94.40%）
-- 💼 **求职意向**：AI 全栈工程师 / AI 应用开发 / LLM Agent — 可立即入职
-- 📫 **联系方式**：2747028274@qq.com
+- 如何把 LLM 输出约束成可校验、可审计的计划，而不是直接改写生产数据
+- 如何让长任务具备进度、重试、恢复和可观察性
+- 如何把 Agent、检索、视觉模型和传统业务服务组合成稳定的产品链路
+- 如何用清晰的 README、测试和演示，让别人可以复现并继续维护项目
 
-> 💡 *面试官可直接访问 [admin.hooppupil.me](https://admin.hooppupil.me) 验证作品真实性*
+目前的主线是 **AI 应用工程 + Agent 编排 + Computer Vision**。我喜欢处理跨前端、后端、模型和部署边界的问题。
 
----
+## Featured work
 
-## 🚀 Featured Project · Hoop Pupil
+| Project | What it demonstrates | Stack |
+| --- | --- | --- |
+| [reflexlearn](https://github.com/Yukibei/reflexlearn) | 面向学习目标的多智能体资源生成、反思与重规划闭环 | Python · LLM · RAG |
+| [manifest-architecture-demo](https://github.com/Yukibei/manifest-architecture-demo) | 用自描述页面 Manifest 支持 Agent 感知能力、路由和跨页面动作 | TypeScript · Web · Agent |
+| [awesome-llm-agent-protocols](https://github.com/Yukibei/awesome-llm-agent-protocols) | 按层整理 Agent 协议、标准与实际取舍，持续补充可验证参考 | Markdown · Research |
+| [tech-blog](https://github.com/Yukibei/tech-blog) | 记录 AI Agent、前端架构和 LLM 应用工程中的实现细节 | MDX · TypeScript |
+| [portfolio-site](https://github.com/Yukibei/portfolio-site) | 个人作品集与可验证项目案例，包含产品、实验和工程记录 | Next.js · React · TypeScript |
 
-<table>
-<tr>
-<td width="55%">
+### Hoop Pupil
 
-### 智瞳蓝途篮球智能分析平台
+正在建设中的篮球智能分析平台，覆盖视频理解、球员重识别、报告生成和 AI Agent 工作流。
 
-**一个面向篮球场景的全栈 AI 平台**，集成持球人重识别、球探对标、AI 视频生成、球鞋鉴定、AI 报告等 7 大业务能力。
+- Web、移动端与管理端共享业务契约
+- ReID 实验指标：mAP **91.61%**，Rank-1 **94.40%**
+- 线上入口：[admin.hooppupil.me](https://admin.hooppupil.me)
 
-**核心创新 — OpenClaw AI 智能管家**
-- 🎯 自研 **Manifest 架构**（前端页面级自描述 + 通用调度）
-- 🔁 **PPSF 闭环** — Perception · Planning · Scheduling · Feedback
-- ⚡ **Pipeline Chain** — 一句话触发跨页面流水线
-- 📐 **形式化建模** — 15 元组定义 + 引理证明 + 复杂度分析
+## Engineering notes
 
-**部署规模**
-- 21 个 AI Agent 页面共存于同一调度系统
-- Web + 微信小程序 + Android 三端统一
-- 接入 OpenAI / Qwen / DeepSeek 多模型网关
+我在项目中优先保留这些工程属性：
 
-</td>
-<td width="45%" align="center">
-
-[![Hoop Pupil](https://img.shields.io/badge/Live-admin.hooppupil.me-success?style=for-the-badge&logo=safari)](https://admin.hooppupil.me)
-
-**Tech Stack**
-
-`Vue 3` `TypeScript` `Java 8` `Spring Boot`
-`PyTorch` `TransReID` `uni-app` `MySQL`
-`Redis` `LLM Gateway` `FastAPI`
-
-**Achievements**
-- 🥇 mAP **91.61%** / Rank-1 **94.40%**
-- ⚡ 特征提取 **35ms** / 匹配 **11ms**
-- 📄 CCF-B 论文 **5/7 章**已完成
-
-</td>
-</tr>
-</table>
-
----
-
-## 🏗️ Architecture Highlight · Manifest Protocol
-
-> **核心想法**：让前端页面像 MCP 一样**自描述能力**，AI Agent 通过统一调度协议即插即用，**21 页面接入成本降低 87%**（4h → 30min）。
-
-```
-┌────────────────────────────────────────────────────────────┐
-│  PageManifest (15-tuple self-description)                  │
-│  ─ pageKey · route · intentTags · capabilities · scripts   │
-└──────────────────────────────┬─────────────────────────────┘
-                               │ register on mount
-                               ▼
-┌────────────────────────────────────────────────────────────┐
-│  Manifest Registry  ·  Reactive · Reference-Counted        │
-└──────────────────────────────┬─────────────────────────────┘
-                               │ query by intent / capability
-                               ▼
-┌────────────────────────────────────────────────────────────┐
-│  Universal Adapter  ·  9 Standard Actions                  │
-│  HIGHLIGHT · UPLOAD · TRIGGER · READ_RESULT · ...          │
-└──────────────────────────────┬─────────────────────────────┘
-                               │ orchestrate cross-page
-                               ▼
-┌────────────────────────────────────────────────────────────┐
-│  Pipeline Chain  ·  Multi-stage NLU-driven Workflows       │
-└────────────────────────────────────────────────────────────┘
+```text
+typed contracts        -> 让模型输出、接口和数据结构可以被验证
+observable pipelines   -> 让长任务有阶段、进度、失败原因和恢复点
+deterministic effects  -> 让文档、文件和业务变更可审计、可回滚
+evidence-first docs    -> 让 README、截图、测试和指标彼此对应
 ```
 
-**与现有协议对比**
+## Open-source direction
 
-| 维度 | Manifest（自研） | OpenAI Function Calling | Anthropic MCP |
-|---|---|---|---|
-| 页面状态感知 | ✅ 强（Reactive） | ❌ 无 | ⚠️ 弱 |
-| 跨页面流水线 | ✅ Pipeline Chain | ❌ 无 | ⚠️ 需手动 |
-| 接入成本 | ✅ O(1) 单文件 | ⚠️ O(N) | ⚠️ O(N) |
-| DOM 时序鲁棒 | ✅ 4 层降级链 | ❌ 无 | ❌ 无 |
-| 形式化保障 | ✅ 引理证明 | ❌ 无 | ❌ 无 |
+我正在把个人项目从“能运行”整理为“别人可以采用”：
 
----
+1. 为核心仓库补齐英文 README、架构图、快速开始和最小演示
+2. 给关键行为补测试、示例数据和可复现脚本
+3. 优先参与 AI 应用、Agent 工具链、开发者体验和文档质量相关的 issue / PR
+4. 每个变更保持小范围、可审查，并在 PR 中写清动机与验证方式
 
-## 🎓 Academic Output
+如果你维护相关项目，欢迎通过 issue 或邮件交流具体问题。
 
-- **📄 项目论文（CCF-B 在投）**：《基于用户意图认知行为的前端智能体页面调度诱导系统研究》
-  - 进度：5/7 章已完成正文（**7500 字 / 12 数学公式 / 2 引理 / 2 算法 / 28 参考文献**）
-  - 拟投：《软件学报》/《计算机学报》/《软件工程》
-- **🔬 算法论文（北大核心）**：《面向篮球场景的轻量遮挡感知与同衣干扰量化重识别方法》
-  - 状态：云 GPU 实验进行中（OAA Token-level 升级 + 遮挡 / 同衣 / 模糊三类子集专项验证）
-  - 拟投：《计算机应用研究》（CSCD-E + 北大核心）
+## Currently learning
 
----
+`Agent evaluation` · `RAG quality` · `distributed task orchestration` · `computer vision under occlusion` · `production observability`
 
-## 🛠️ Tech Stack
+## Contact
+
+- Website: [www.liyilin.xyz](https://www.liyilin.xyz)
+- Email: [2747028274@qq.com](mailto:2747028274@qq.com)
+- GitHub: [@Yukibei](https://github.com/Yukibei)
 
 <div align="center">
 
-**AI / LLM Agent**
+<sub>Build carefully. Document honestly. Contribute where it matters.</sub>
 
-![LLM](https://img.shields.io/badge/LLM-OpenAI%20%7C%20Qwen%20%7C%20DeepSeek-412991?style=flat-square&logo=openai&logoColor=white)
-![Agent](https://img.shields.io/badge/Agent-Manifest%20%7C%20MCP%20%7C%20Function%20Calling-blueviolet?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-Vector%20%7C%20Pipeline%20Chain-orange?style=flat-square)
-
-**Frontend**
-
-![Vue](https://img.shields.io/badge/-Vue%203.5-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
-![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Pinia](https://img.shields.io/badge/-Pinia-yellow?style=flat-square&logo=pinia&logoColor=black)
-![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![uniapp](https://img.shields.io/badge/-uni--app-2B9939?style=flat-square)
-
-**Backend**
-
-![Java](https://img.shields.io/badge/-Java%208-007396?style=flat-square&logo=openjdk&logoColor=white)
-![SpringBoot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![MyBatis](https://img.shields.io/badge/-MyBatis-DC382D?style=flat-square)
-![MySQL](https://img.shields.io/badge/-MySQL%208-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-**Algorithm / CV**
-
-![PyTorch](https://img.shields.io/badge/-PyTorch%202.9-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-
-</div>
-
----
-
-## 🏆 Achievements & Certifications
-
-- 🥇 **全国高校计算机能力挑战赛** — Java + C++ **双赛道双国一**（一人双项 / 同届罕见）
-- 🥉 **蓝桥杯**（智能体开发赛道）— 省级三等奖
-- 📜 **软件设计师** — 国家软考中级
-- 🎯 **第十七届中国大学生服务外包创新创业大赛 A 类** — 队长 / 全栈主力（命题方：球秀体育科技 × 中南大学博士团队）
-- 📊 **GPA 排名**：专业前 5%（3/65）
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<a href="https://github.com/Yukibei">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Yukibei&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yukibei&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-</a>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Yukibei&theme=tokyonight&hide_border=true" />
-
-</div>
-
----
-
-## 📫 Get in Touch
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:2747028274@qq.com)
-[![Website](https://img.shields.io/badge/-Hoop%20Pupil-FF6B6B?style=for-the-badge&logo=safari&logoColor=white)](https://admin.hooppupil.me)
-[![Phone](https://img.shields.io/badge/-+86%20175*****836-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](#)
-
-<br/>
-
-> 🚀 **2026 届校招进行中** — 寻找 AI 全栈 / LLM Agent / AI 应用开发岗位
-> 📍 期望地点：北京 · 上海 · 杭州 · 远程
-> ⏰ 可入职时间：当下
-
-</div>
-
-<!-- 底部 Banner -->
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer" />
 </div>
