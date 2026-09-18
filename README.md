@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=wave&color=0:60a5fa,100:3b82f6&height=180&section=header&text=%E6%9D%8E%E6%80%A1%E9%9C%96%20%C2%B7%20Yilin%20Li&fontSize=40&fontColor=ffffff&stroke=bfdbfe&strokeWidth=2&animation=fadeIn&fontAlignY=40&desc=AI%20Agent%20Engineering%20%2F%20Backend%20%2F%20Full-stack&descAlignY=66&descSize=16&descColor=ffffff" alt="李怡霖 Yilin Li profile header">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:60a5fa,100:3b82f6&height=180&text=%E6%9D%8E%E6%80%A1%E9%9C%96%20%C2%B7%20Yilin%20Li&fontSize=40&fontColor=ffffff&stroke=bfdbfe&strokeWidth=2&animation=fadeIn&fontAlignY=40&desc=AI%20Agent%20Engineering%20%2F%20Backend%20%2F%20Full-stack&descAlignY=66&descSize=16&descColor=ffffff" alt="李怡霖 Yilin Li profile header">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:60a5fa&height=58&section=footer&animation=twinkling" alt="animated blue wave separator">
 
 ### AI Agent 开发工程师 · 后端开发 · 全栈交付
 
