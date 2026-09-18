@@ -118,11 +118,6 @@
   <img src="https://img.shields.io/badge/查询耗时-2%20分钟%20%3E%208%20秒-e06c2f?style=for-the-badge" alt="2 minutes to 8 seconds">
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Yukibei&show_icons=true&border_radius=16&border_color=dbeafe&title_color=1d4ed8&text_color=334155&icon_color=0369a1&bg_color=f8fbff" height="165" alt="GitHub stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yukibei&layout=compact&border_radius=16&border_color=dbeafe&title_color=1d4ed8&text_color=334155&bg_color=f8fbff" height="165" alt="Top languages">
-</p>
-
 ## 我的 AI Coding 方法
 
 ```text
