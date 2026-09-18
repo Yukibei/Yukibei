@@ -1,0 +1,27 @@
+<svg width="860" height="220" viewBox="0 0 860 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="860" height="220" rx="18" fill="#F8FAFC"/>
+  <path d="M28 184H832" stroke="#D9E2EC" stroke-width="1"/>
+  <path d="M28 36H832" stroke="#D9E2EC" stroke-width="1" stroke-dasharray="3 7"/>
+  <path d="M44 64H816" stroke="#E8EEF5" stroke-width="1" stroke-dasharray="3 7"/>
+  <path d="M44 124H816" stroke="#E8EEF5" stroke-width="1" stroke-dasharray="3 7"/>
+  <path d="M170 110H250M334 110H414M498 110H578M662 110H742" stroke="#9FB4C8" stroke-width="2"/>
+  <path d="M238 104L250 110L238 116M402 104L414 110L402 116M566 104L578 110L566 116M730 104L742 110L730 116" stroke="#9FB4C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="44" y="78" width="126" height="64" rx="12" fill="#E8F1FF" stroke="#8EB6F5"/>
+  <rect x="250" y="78" width="84" height="64" rx="12" fill="#E5F7F1" stroke="#82CDB2"/>
+  <rect x="414" y="78" width="84" height="64" rx="12" fill="#FFF3E8" stroke="#F3B985"/>
+  <rect x="578" y="78" width="84" height="64" rx="12" fill="#F0EBFF" stroke="#B5A1EE"/>
+  <rect x="742" y="78" width="74" height="64" rx="12" fill="#E8F1FF" stroke="#8EB6F5"/>
+  <circle cx="74" cy="103" r="8" fill="#1D4ED8"/><circle cx="94" cy="103" r="8" fill="#5B8DEF"/><circle cx="114" cy="103" r="8" fill="#9CB9F5"/>
+  <path d="M70 124H144" stroke="#5B8DEF" stroke-width="4" stroke-linecap="round"/>
+  <text x="107" y="159" text-anchor="middle" fill="#17324D" font-family="Arial, sans-serif" font-size="13" font-weight="700">USER GOAL</text>
+  <text x="292" y="105" text-anchor="middle" fill="#176B53" font-family="Arial, sans-serif" font-size="13" font-weight="700">CONTEXT</text>
+  <text x="292" y="124" text-anchor="middle" fill="#4E806E" font-family="Arial, sans-serif" font-size="11">memory / skills</text>
+  <text x="456" y="105" text-anchor="middle" fill="#9A5B27" font-family="Arial, sans-serif" font-size="13" font-weight="700">TOOLS</text>
+  <text x="456" y="124" text-anchor="middle" fill="#A7774D" font-family="Arial, sans-serif" font-size="11">agents / APIs</text>
+  <text x="620" y="105" text-anchor="middle" fill="#624BA2" font-family="Arial, sans-serif" font-size="13" font-weight="700">STATE</text>
+  <text x="620" y="124" text-anchor="middle" fill="#7866B3" font-family="Arial, sans-serif" font-size="11">trace / retry</text>
+  <text x="779" y="105" text-anchor="middle" fill="#17324D" font-family="Arial, sans-serif" font-size="13" font-weight="700">SHIP</text>
+  <text x="779" y="124" text-anchor="middle" fill="#52708D" font-family="Arial, sans-serif" font-size="11">review / result</text>
+  <text x="44" y="58" fill="#526A80" font-family="Arial, sans-serif" font-size="12" letter-spacing="1.5">AGENT ENGINEERING FIELD NOTES</text>
+  <text x="816" y="58" text-anchor="end" fill="#8A9CAE" font-family="Arial, sans-serif" font-size="11">evidence over magic</text>
+</svg>

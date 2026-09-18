@@ -1,103 +1,151 @@
 <div align="center">
 
-# 李怡霖 · Yiling Li
+# 李怡霖 · Yilin Li
 
-**科大讯飞 · 星火企业军团 · Agent 产品研发工程师**
+### AI Agent 开发工程师 · 后端开发 · 全栈交付
 
-用 AI Coding 把想法推进到可运行产品：Java 微服务、Python 智能体编排、前端全栈与工程化交付。
+<p>把模型能力接进真实业务：工具调用、上下文工程、RAG、任务状态、权限和可观察交付。</p>
 
-[个人网站](https://www.liyilin.xyz) · [Hoop Pupil](https://admin.hooppupil.me) · [Email](mailto:2747028274@qq.com)
+<a href="https://www.liyilin.xyz">个人网站</a> ·
+<a href="https://www.liyilin.xyz/work">作品集</a> ·
+<a href="mailto:2747028274@qq.com">Email</a> ·
+<a href="https://linux.do/Yukibei">LinuxDo</a>
+
+<br><br>
+<img src="./assets/agent-architecture.svg" alt="Agent 工程流程：目标、上下文、工具、状态、交付" width="860">
 
 </div>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Agent%20Engineering-1d4ed8?style=flat-square" alt="Agent Engineering">
+  <img src="https://img.shields.io/badge/Java%20%2B%20Python-0f766e?style=flat-square" alt="Java and Python">
+  <img src="https://img.shields.io/badge/React%20%2F%20Vue-e06c2f?style=flat-square" alt="React and Vue">
+  <img src="https://img.shields.io/badge/AI%20Coding-7c3aed?style=flat-square" alt="AI Coding">
+</p>
+
+<p align="center"><sub>郑州大学西亚斯国际学院 · 2027 届 · 计算机科学与技术（商业智能系统开发方向）</sub></p>
+
 ---
 
-## 我在做什么
+## 当前工作
 
-目前在 **科大讯飞星火企业军团** 从事 Agent 产品研发工程，关注大模型能力如何进入真实业务，而不止停留在 Demo：
+现在在 **科大讯飞星火企业军团** 参与 Agent 产品研发，主要负责长任务上下文与执行状态，参与 Skills、项目记忆、子任务编排和变更审阅。关注的问题是：Agent 如何在长任务中保持目标、留下证据、可靠恢复，并把结果交付给用户。
 
-- 设计 Agent 的工具调用、任务状态、上下文管理、结果校验和失败恢复
-- 用 Python / LangGraph 组织多智能体、RAG、评测与可观察任务管线
-- 用 Java / Spring Boot 构建账号、权限、订单、积分和异步任务等微服务业务
-- 用 React / Next.js / Vue / TypeScript 完成产品工作台、管理端和多端体验
-- 用 AI Coding 加速探索、重构和交付，同时坚持类型约束、测试、审查和可回滚
+此前在 **小红书数据库部 · 关系型数据库组** 参与 omini 数据库变更评审与资源预测，也曾在东联智通从 0 到 1 负责 ERP/OA 自然语言 AI 助手的 Agent、后端、工作台、权限和部署。
 
-我更关心“系统能否被使用、验证和维护”，而不是单个模型调用看起来多么聪明。
+```text
+用户目标 -> 上下文与记忆 -> 工具 / 子任务编排 -> 状态与回执 -> 审阅与交付
+```
 
-## 能力矩阵
+## 能力地图
 
-| 方向 | 我擅长的工作 | 常用技术 |
+| 方向 | 关注的问题 | 常用技术 |
 | --- | --- | --- |
-| AI Coding | 需求拆解、代码生成、重构、测试补全、调试和文档协作 | Cursor / Claude Code / Codex 工作流、Git |
-| Agent 编排 | 多智能体路由、工具调用、RAG、反思、评测、长任务恢复 | Python、FastAPI、LangGraph、Pydantic |
-| Java 微服务 | 业务建模、接口契约、鉴权、异步任务、缓存和数据一致性 | Java、Spring Boot、MyBatis、MySQL、Redis |
-| 前端全栈 | 产品工作台、管理端、流式交互、响应式布局和体验打磨 | React、Next.js、Vue、TypeScript、Tailwind |
-| 工程化 | Docker、Linux 部署、日志、脚本、CI 检查和问题定位 | Docker Compose、Nginx、Shell、GitHub Actions |
+| Agent 工程 | 工具调用、长任务、记忆、反思、评测与失败恢复 | Python、FastAPI、LangGraph、Pydantic、MCP |
+| Context Engineering | 目标、约束、决策、历史摘要和产物索引的按需组织 | Token Budget、Skills、状态机、Trace |
+| RAG 与知识治理 | Parent-Child Chunking、混合检索、重排、权限过滤、证据回填 | BM25、Dense Retrieval、RRF、Cross-Encoder |
+| Java 后端 | 业务建模、接口契约、RBAC、订单积分、异步任务与一致性 | Java、Spring Boot、MyBatis、MySQL、Redis |
+| 产品与交付 | 工作台、流式交互、管理端、日志、部署和 CI | React、Next.js、Vue、TypeScript、Docker、Nginx |
 
-## 代表项目
+## 经历摘要
 
-### [Hoop Pupil · 智瞳篮途](https://admin.hooppupil.me)
+| 时间 | 经历 | 关键词 |
+| --- | --- | --- |
+| 2026.06 - 至今 | 科大讯飞 · 星火企业军团 | AStudio 桌面 Agent、长任务上下文、Skills、子任务协作 |
+| 2026.03 - 2026.06 | 科大讯飞 · 教育 BG | 智学云、知识治理、RAG、权限过滤、Queue + Worker |
+| 2025.10 - 2026.02 | 小红书 · 数据库部 | omini、SQL 评审、TiDB AST、资源预测、业务记忆 |
+| 2025.07 - 2025.09 | 上海东联智通 | ERP/OA AI 助手、Tool Registry、RBAC / ABAC、动态 Few-shot |
 
-正在建设的篮球智能分析平台，覆盖视频理解、球员重识别、报告生成和 AI Agent 工作流。
+## 项目与结果
 
-- Web、移动端与管理端共享业务契约
-- ReID 实验指标：mAP **91.61%**，Rank-1 **94.40%**
-- 负责从产品想法、Agent 编排到前后端联调和部署验证的完整链路
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### [reflexlearn](https://github.com/Yukibei/reflexlearn)
+### ReflexLearn
 
-面向学习目标的自进化多智能体系统：学习画像、检索、规划、生成、质量门禁、反思重规划和学习路径组装形成闭环。
+[学习规划与反思多智能体系统](https://github.com/Yukibei/reflexlearn)
 
-### [manifest-architecture-demo](https://github.com/Yukibei/manifest-architecture-demo)
+用 Gate、Critic、Debate / Judge、Planner 组成反馈闭环，配合 Qdrant、Neo4j、PostgreSQL、Redis 与 FastAPI / React 工作台。
 
-用自描述页面 Manifest 让 Agent 感知页面能力、匹配意图并执行跨页面动作，探索 Agent 与 Web 应用之间更稳定的契约。
+**RAG 评测：**完整系统 `0.6900` · 去除检索 `0.5467` · 单 Agent `0.2000`
 
-### [awesome-llm-agent-protocols](https://github.com/Yukibei/awesome-llm-agent-protocols)
+</td>
+<td width="50%" valign="top">
 
-按工具层、跨进程层、前端层和框架层整理 LLM Agent 协议与标准，记录真实取舍，而不是只罗列名词。
+### 智瞳篮途 · Hoop Pupil
 
-更多项目与可核对的媒体证据：[个人作品集](https://www.liyilin.xyz/work)。
+[篮球视频理解与球员 ReID 平台](https://hooppupil.me/)
+
+负责全栈、算法工程、任务状态、权限、幂等和 Docker / Nginx 部署。
+
+**ReID：**mAP `91.61%` · Rank-1 `94.40%` · 特征提取约 `35 ms`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### MedSlide Agent
+
+[医疗 PPT 商业化平台](https://www.liyilin.xyz/work)
+
+负责 React / Next.js、Spring Boot、FastAPI、PostgreSQL 全栈交付，打通生成、预览、积分下载、作品归档与订单售后。
+
+</td>
+<td width="50%" valign="top">
+
+### 蓝科 ERP/OA AI 助手
+
+从 0 到 1 负责自然语言助手，接入订单、库存、审批 4 个模块；300+ 条内部评测集端到端成功率约 `93.5%`，典型查询从约 2 分钟降到 8 秒。
+
+</td>
+</tr>
+</table>
+
+## 开源贡献
+
+| 项目 | 贡献 |
+| --- | --- |
+| [LiteLLM](https://github.com/BerriAI/litellm) | 修复 Chat / Responses 多轮部署亲和性，解决工具续轮切换 Azure 部署导致的加密推理校验失败。 |
+| [Celery](https://github.com/celery/celery) | 修复 Canvas 签名深拷贝缺陷，隔离回调状态和任务 ID，同时保留惰性参数及共享引用语义。 |
+| [Open Code Review](https://github.com/alibaba/open-code-review) | 修复 `ocr config set` 超时配置无法持久化，并补齐边界校验和回归测试。 |
+
+## 可核对指标
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AStudio-10%2B%20关键%20Bug%20修复-1d4ed8?style=for-the-badge" alt="10 plus AStudio bug fixes">
+  <img src="https://img.shields.io/badge/AI%20助手-93.5%25%20端到端成功率-0f766e?style=for-the-badge" alt="93.5 percent end to end success rate">
+  <img src="https://img.shields.io/badge/查询耗时-2%20分钟%20%3E%208%20秒-e06c2f?style=for-the-badge" alt="2 minutes to 8 seconds">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Yukibei&show_icons=true&hide_border=true&title_color=1d4ed8&text_color=334155&icon_color=0f766e&bg_color=ffffff" height="165" alt="GitHub stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yukibei&layout=compact&hide_border=true&title_color=1d4ed8&text_color=334155&bg_color=ffffff" height="165" alt="Top languages">
+</p>
 
 ## 我的 AI Coding 方法
 
-AI Coding 对我来说不是把代码交给模型，而是把工程反馈回路做得更快：
-
 ```text
-先定义边界       ->  明确输入、输出、失败状态和不可变约束
-让模型做加速器   ->  生成候选实现、测试、迁移草案和排障假设
-人负责工程判断   ->  审查设计、数据安全、兼容影响和真实业务语义
-用证据收敛结果   ->  运行测试、检查日志、复现问题、记录取舍并提交小 PR
+先定义边界       -> 输入、输出、失败状态、不可变约束
+让模型做加速器   -> 候选实现、测试、迁移草案、排障假设
+人负责工程判断   -> 设计、权限、兼容影响、真实业务语义
+用证据收敛结果   -> 测试、日志、复现、Diff 审阅、小 PR
 ```
 
 我会把模型输出落到类型、测试、日志和文档中，让“会写代码”变成“能交付、能维护”。
 
-## 正在关注
+## 公开工程快照
 
-- Agent 评测、RAG 质量与长任务可靠性
-- Java 微服务与 Python AI 服务的边界设计
-- 多模态模型、Computer Vision 与真实业务流程结合
-- AI Coding 工具链、开发者体验和可复现工程实践
-- 国内外 AI 热点进展、开源项目演化和互联网产品信息
-
-我维护个人 AI 模型网关 / 中转服务，用于多模型接入、应用开发和工程验证；也长期参与 LinuxDo 社区，目前为 **LV3 用户**，喜欢从社区讨论、源码和公开数据中追踪技术趋势。
-
-## 开源与协作
-
-我会优先贡献自己真正使用或深入研究的项目，从文档、测试、边界修复和可复现 issue 开始：
-
-- 一个 PR 只解决一个问题，写清动机、验证命令和风险
-- 不伪造指标、不刷贡献记录，不把实验性代码包装成生产结论
-- 欢迎围绕 Agent、RAG、开发者工具、前端架构和工程化实践交流
+个人主页仓库每天自动记录 GitHub 公开指标：[查看数据](./data/github-daily.json) · [查看工作流](./.github/workflows/daily-github-snapshot.yml)
 
 ## 联系我
 
-- Website: [www.liyilin.xyz](https://www.liyilin.xyz)
-- GitHub: [@Yukibei](https://github.com/Yukibei)
-- Email: [2747028274@qq.com](mailto:2747028274@qq.com)
-- LinuxDo: [社区入口](https://linux.do)
+<p align="center">
+  <a href="https://www.liyilin.xyz">www.liyilin.xyz</a> ·
+  <a href="https://github.com/Yukibei">@Yukibei</a> ·
+  <a href="mailto:2747028274@qq.com">2747028274@qq.com</a> ·
+  <a href="https://linux.do/Yukibei">LinuxDo / Yukibei</a>
+</p>
 
-<div align="center">
-
-<sub>把 AI 做成产品，把工程做成证据。</sub>
-
-</div>
+<div align="center"><sub>把 AI 做成产品，把工程做成证据。</sub></div>
