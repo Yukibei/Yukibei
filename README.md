@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:eff6ff,100:dbeafe&height=170&section=header&text=Yilin%20Li&fontSize=42&fontColor=1e3a8a&animation=fadeIn&fontAlignY=38&desc=AI%20Agent%20Engineering%20%2F%20Backend%20%2F%20Full-stack&descAlignY=60&descSize=16" alt="Yilin Li profile header">
+
 # 李怡霖 · Yilin Li
 
 ### AI Agent 开发工程师 · 后端开发 · 全栈交付
@@ -10,9 +12,6 @@
 <a href="https://www.liyilin.xyz/work">作品集</a> ·
 <a href="mailto:2747028274@qq.com">Email</a> ·
 <a href="https://linux.do/Yukibei">LinuxDo</a>
-
-<br><br>
-<img src="./assets/agent-architecture.svg" alt="Agent 工程流程：目标、上下文、工具、状态、交付" width="860">
 
 </div>
 
