@@ -1,6 +1,10 @@
 name: Daily GitHub profile snapshot
 
 on:
+  push:
+    paths:
+      - ".github/workflows/daily-github-snapshot.yml"
+      - "scripts/update-daily-github-snapshot.sh"
   schedule:
     - cron: "17 16 * * *"
   workflow_dispatch:
