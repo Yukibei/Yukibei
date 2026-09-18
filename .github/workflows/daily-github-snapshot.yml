@@ -31,7 +31,7 @@ jobs:
 
       - name: Commit the snapshot
         run: |
-          if git diff --quiet -- data/github-daily.json; then
+          if [[ -z "$(git status --porcelain -- data/github-daily.json)" ]]; then
             echo "Snapshot is already current."
             exit 0
           fi
