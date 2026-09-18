@@ -25,10 +25,6 @@
   <img src="https://img.shields.io/badge/MCP%20%2F%20Tooling-0284c7?style=flat" alt="MCP and tooling">
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Yukibei&theme=flat&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" alt="GitHub profile trophies">
-</p>
-
 <p align="center"><sub>郑州大学西亚斯国际学院 · 2027 届 · 计算机科学与技术（商业智能系统开发方向）</sub></p>
 
 ---
