@@ -1,12 +1,13 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0369a1,100:2563eb&height=175&text=Yilin%20Li&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Agent%20Engineering%20%2F%20Backend%20%2F%20Full-stack&descAlignY=62&descSize=16&descColor=ffffff" alt="Yilin Li profile header">
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:60a5fa,100:2563eb&height=175&text=%E6%9D%8E%E6%80%A1%E9%9C%96%20%C2%B7%20Yilin%20Li&fontSize=40&fontColor=ffffff&stroke=bfdbfe&strokeWidth=2&animation=twinkling&fontAlignY=38&desc=AI%20Agent%20Engineering%20%2F%20Backend%20%2F%20Full-stack&descAlignY=62&descSize=16&descColor=ffffff" alt="李怡霖 Yilin Li profile header">
 
 ### AI Agent 开发工程师 · 后端开发 · 全栈交付
 
 <a href="https://github.com/Yukibei"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2800&pause=900&color=0369A1&center=true&vCenter=true&width=680&lines=Context+Engineering+%C2%B7+RAG+%C2%B7+Agent+Orchestration;Java+%2B+Python+%C2%B7+Product+Delivery+%C2%B7+Open+Source" alt="Engineering focus"></a>
 
 <p>把模型能力接进真实业务：工具调用、上下文工程、RAG、任务状态、权限和可观察交付。</p>
+<p><strong>当前焦点：</strong>长任务上下文 · Skills · 项目记忆 · 子任务编排 · 可恢复交付</p>
 
 <a href="https://www.liyilin.xyz">个人网站</a> ·
 <a href="https://www.liyilin.xyz/work">作品集</a> ·
@@ -20,6 +21,12 @@
   <img src="https://img.shields.io/badge/Java%20%2B%20Python-0369a1?style=flat" alt="Java and Python">
   <img src="https://img.shields.io/badge/React%20%2F%20Vue-e06c2f?style=flat" alt="React and Vue">
   <img src="https://img.shields.io/badge/AI%20Coding-7c3aed?style=flat" alt="AI Coding">
+  <img src="https://img.shields.io/badge/RAG%20%2F%20Evaluation-2563eb?style=flat" alt="RAG and evaluation">
+  <img src="https://img.shields.io/badge/MCP%20%2F%20Tooling-0284c7?style=flat" alt="MCP and tooling">
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Yukibei&theme=flat&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" alt="GitHub profile trophies">
 </p>
 
 <p align="center"><sub>郑州大学西亚斯国际学院 · 2027 届 · 计算机科学与技术（商业智能系统开发方向）</sub></p>
@@ -143,5 +150,3 @@
 </p>
 
 <div align="center"><sub>把 AI 做成产品，把工程做成证据。</sub></div>
-
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rounded&color=0:2563eb,100:0369a1&height=68&section=footer" alt="profile footer"></p>
